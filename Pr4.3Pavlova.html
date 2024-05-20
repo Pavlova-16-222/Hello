@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Привет!</title>
+    <link rel="stylesheet" href="bluestyle.css">
+    <style>
+        body{
+            background: #ecd8d8;
+            color: #9b6767;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 12px 20px;
+            color: #9b6767;
+            margin: 8px 0;
+            box-sizing: border-box;
+            background: #f3e9e9;
+            border: 3px solid #d6a8a8;
+            border-radius: 15px;
+            transition: 1s;
+            outline: none;
+        }
+        input[type="text"]:focus {
+            border: 3px solid #9b6767;
+        }
+        ::placeholder{
+            color: #d6a8a8;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="fname">Имя:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Татьяна"><br>
+        <label for="lname">Фамилия:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="Павлова"><br>
+        <label for="fname">Возрасты:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="18"><br>
+        <label for="fname">Цвет глаз:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Серо-голубой"><br>
+        <label for="fname">Номер школы:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="МОБУ СОШ 21"><br>
+        <label for="fname">Хобби:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Рисование"><br>
+        </form>
+</body>
+</html>
